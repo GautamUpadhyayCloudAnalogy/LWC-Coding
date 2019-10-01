@@ -4,6 +4,7 @@ import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 export default class MiscNotification extends LightningElement {
     _title = 'Sample Title';
     message = 'Sample Message';
+    
     variant = 'error';
     variantOptions = [
         { label: 'error', value: 'error' },

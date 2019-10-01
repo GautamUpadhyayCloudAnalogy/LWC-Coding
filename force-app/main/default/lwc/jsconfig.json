@@ -2,8 +2,26 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
+            "c/contactListItem": [
+                "contactListItem/contactListItem.js"
+            ],
+            "c/eventSimple": [
+                "eventSimple/eventSimple.js"
+            ],
+            "c/eventWithData": [
+                "eventWithData/eventWithData.js"
+            ],
             "c/lWCToast": [
                 "lWCToast/lWCToast.js"
+            ],
+            "c/paginator": [
+                "paginator/paginator.js"
+            ],
+            "c/todoapp": [
+                "todoapp/todoapp.js"
+            ],
+            "c/todoitem": [
+                "todoitem/todoitem.js"
             ]
         },
         "experimentalDecorators": true
